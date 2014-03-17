@@ -25,12 +25,12 @@
 
 		<div id="home" data-role="page" data-title="Home" data-theme="b">
 			<!-- Home Page Header -->
-				
-		<div 
-				data-role="header"
-				data-theme="b"
-				data-id="vs_header"
-				data-position="fixed">
+
+			<div
+			data-role="header"
+			data-theme="b"
+			data-id="vs_header"
+			data-position="fixed">
 				<a href="#help"
 				data-icon="alert"
 				data-transition="slide"
@@ -38,13 +38,13 @@
 
 				<a href="#info"
 				data-icon="info"
-				
+
 				data-transition="fade"
 				data-role="button">ABOUT</a>
 				<h1>Region 5</h1>
-		</div>
+			</div>
 			<!-- /Home Page Header -->
-			
+
 			<!-- Content -->
 			<div data-role="content">
 				<!-- Home Page Buttons -->
@@ -53,14 +53,14 @@
 				data-icon="file"
 				data-iconpos="left"
 				data-mini="true"
-				data-role="button">Sessions</a>
+				data-role="button">Training Sessions</a>
 
 				<a href="#videos"
 				data-transition="slide"
 				data-icon="video"
 				data-iconpos="left"
 				data-mini="true"
-				data-role="button">Videos</a>
+				data-role="button">Spectrum Disorder Videos</a>
 
 				<a href="#photos"
 				data-transition="slide"
@@ -82,9 +82,9 @@
 				data-iconpos="left"
 				data-mini="true"
 				data-role="button">Autism Conference Info</a>
-				
+
 				<a href="#list"
-				
+
 				data-transition="slide"
 				data-icon="file"
 				data-iconpos="left"
@@ -579,9 +579,12 @@
 				>Sessions</a>
 				<h1>Tweets Header</h1>
 			</div>
-			<div data-role="content">
+			<!-- Tweets Content -->
+			<div data-role="content" id="tweetlist">
 				Tweets
 			</div>
+			<!-- /Tweets Content -->
+
 			<a href="#home"
 			data-transition="slide"
 			data-role="button"
@@ -745,8 +748,7 @@
 			>Home</a>
 		</div><!-- /Help Page -->
 		
-
-
+		<script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
 
 	</body>
 </html>
