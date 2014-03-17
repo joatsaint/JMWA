@@ -1,0 +1,43 @@
+#home {
+	text-align: center;
+	background: url('../img/PuzzlePieces.png');
+}
+
+#home img {
+	width: 50%;
+	max-width: 200px;
+}
+
+#Sessions img {
+	margin-right:05px;
+}
+
+
+#videolist img {
+	display: block;
+	width: 95%;
+}
+
+.ui-icon-file {
+	background-image: url("images/file.png");	
+	background-size:12px 12px;
+	background-position:center;
+}
+
+.ui-icon-twitter {
+	background-image: url("images/twitter.png");	
+	background-size:12px 12px;
+	background-position:center;
+}
+
+.ui-icon-video {
+	background-image: url("images/video.png");	
+	background-size:12px 12px;
+	background-position:center;
+}
+
+.ui-icon-camera {
+	background-image: url("images/camera.png");	
+	background-size:18px 18px;
+	background-position:center;
+}
