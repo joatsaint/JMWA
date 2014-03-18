@@ -7,7 +7,7 @@
     <author email="randy@rskiles.com" href="http://rskiles.com">
         rskile.com
     </author>
-<access origin="http://gdata.youtube.com" />
+<access origin="*.youtube.com" />
 
     <access origin="*.google.com"/>
     <access origin="*.googleapis.com"/>
