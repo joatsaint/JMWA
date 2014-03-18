@@ -12,10 +12,34 @@
 	margin-right:05px;
 }
 
+#videolist h3 {
+	margin: 15px 0 5px 0;
+	height: 50px;
+	overflow: hidden;
+	font-size: .85em;
+}
 
 #videolist img {
-	display: block;
 	width: 95%;
+}
+
+#videolist a {
+	text-decoration: none;
+	color: #777;
+}
+
+#videoplayer .ui-content {
+	margin: 0;
+	padding: 0;
+}
+
+#videoplayer iframe {
+	width: 100%;
+	min-height: 75%;
+}
+
+#videoplayer h3, #myplayer p {
+	padding: 0 5%;
 }
 
 .ui-icon-file {

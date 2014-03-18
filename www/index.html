@@ -83,13 +83,13 @@
 				data-mini="true"
 				data-role="button">Autism Conference Info</a>
 
-				<a href="#list"
+				<a href="#videoplayer"
 
 				data-transition="slide"
 				data-icon="file"
 				data-iconpos="left"
 				data-mini="true"
-				data-role="button">List</a>
+				data-role="button">Video Player</a>
 				<!-- /Home Page Buttons -->
 				<!-- R5 Logo -->
 				<img src="img/R5Logo_Umbrella.png" alt="Region 5 Autism Conference 2014" />
@@ -445,6 +445,8 @@
 
 		<!-- Videos Page -->
 		<div id="videos" data-role="page">
+
+			<!-- Videos Page Header -->
 			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
 				<a href="#home"
 				data-icon="home"
@@ -456,44 +458,25 @@
 				>Sessions</a>
 				<h1>Videos</h1>
 			</div>
+			<!-- / Videos Page Header-->
+
+			<!-- Videos Page Content-->
 			<div data-role="content">
 
-				<!-- Video Thumbnails -->
-				<!-- Finished Grid -->
-
 				<div data-role="content">
+
 					<div class="ui-grid-a" id="videolist">
-						<div class="ui-block-a">
-							<a href="http://youtu.be/rD4P69D0X4k">
-							<div class="movietitle">
-								Adobe Edge
-							</div> <img src="css/images/video_whatisedge.jpg" alt="Video: What is Adobe Edge?"> </a>
+
+						<!-- Videos Grid -->
+						<div class="ui-grid-a" id="videolist">
+
 						</div>
-						<div class="ui-block-b">
-							<a href="http://youtu.be/MHdHKh4AswY">
-							<div class="movietitle">
-								Edge UI
-							</div> <img src="css/images/video_edgeui.jpg" alt="Video: Understanding the Edge Interface"> </a>
-						</div>
-						<div class="ui-block-a">
-							<a href="http://youtu.be/0Pp8jcQ97pY">
-							<div class="movietitle">
-								What Is Autism Spectrum Disorder?
-							</div> <img src="css/images/video_toggle.jpg" alt="Video: What Is Autism Spectrum Disorder?"> </a>
-						</div>
-						<div class="ui-block-b">
-							<a href="http://youtu.be/MHdHKh4AswY">
-							<div class="movietitle">
-								Image uploader
-							</div> <img src="css/images/video_uploader.jpg" alt="Video: Build an image uploader"> </a>
-						</div>
+						<!-- / Videos Grid -->
 					</div>
 				</div>
 			</div>
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
+
+			<!-- / Videos Page Content-->
 
 			<!-- Videos Footer -->
 			<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
@@ -542,7 +525,32 @@
 			</div>
 			<!-- /Videos Footer -->
 		</div>
-		<!-- /Videos Vidoes Page -->
+		<!-- /Videos Videos Page -->
+
+		<!-- Video Player Page -->
+		<div id="videoplayer" data-role="page">
+
+			<!-- Video Player Header -->
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<a href="#videos" data-transition="fade" data-icon="back"
+				data-iconpos="notext" data-direction="reverse">Videos</a>
+				<h1>Videos</h1>
+			</div>
+			<!-- / Video Player Header -->
+
+			<!-- Video Player Content -->
+			<div data-role="content">
+				<div id="myplayer"></div>
+			</div><!-- / Video Player Content -->
+
+			<!-- Video Player Footer -->
+
+			<!-- Video Player Footer -->
+
+		</div>
+		<!-- / Video Player Page -->
+
+		<!-- Video Player Page -->
 
 		<!-- Photos Page -->
 		<div id="photos" data-role="page">
@@ -748,7 +756,10 @@
 			>Home</a>
 		</div><!-- /Help Page -->
 		
-		<script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
+<!-- 		<script src="http://gdata.youtube.com/feeds/users/lynda/uploads?alt=json-in-script&max-results=30&category=Villalobos&callback=listVideos" type="text/javascript"></script>
+	 -->
+
+<script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
 
 	</body>
 </html>
