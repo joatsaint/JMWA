@@ -1,12 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.rskiles.JMWA" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Region 5 2014 Autism Conference</name>
+<widget id="com.rskiles.listview" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Region 5 2014 Food Vendor Expo</name>
     <description>
         Region 5 2014 Autism Conference
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="randy@rskiles.com" href="http://rskiles.com">
+        rskile.com
     </author>
+    <access origin="*.google.com"/>
+    <access origin="*.googleapis.com"/>
+    
+    <access origin="*.google.com" />
+    <access origin="*.googleapis.com" />
+    <access origin="*.gstatic.com" />
+    <access origin="*.googleusercontent.com" />
+    <access origin="google.com" subdomains="true"/>
+    <access origin="googleapis.com" subdomains="true"/>
+    <access origin="gstatic.com" subdomains="true"/>
+    <access origin="googleusercontent.com" subdomains="true"/>
+    <gap:plugin name="com.phonegap.plugins.childbrowser" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
