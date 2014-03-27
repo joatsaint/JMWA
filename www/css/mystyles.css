@@ -20,7 +20,12 @@
 }
 
 #videolist img {
-	width: 95%;
+	width: 90%;
+}
+
+#help img {
+	width: 90%;
+	max-width: 200px;
 }
 
 #videolist a {
