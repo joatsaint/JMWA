@@ -8,6 +8,11 @@
 	max-width: 200px;
 }
 
+#help {
+	text-align: center;
+	background: url('../img/PuzzlePieces.png');
+}
+
 #Sessions img {
 	margin-right:05px;
 }

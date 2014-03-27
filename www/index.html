@@ -790,19 +790,19 @@
 
 		<!-- Help Page -->
 		<div id="help" data-role="page">
-			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
+<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
 				<a href="#home"
 				data-icon="home"
-				data-iconpos="left"
+				data-iconpos="notext"
 				data-transition="slide"
-				>Home</a>
-				<a href="#"
-				data-iconpos="left"
-				data-rel="back"
-				data-icon="back"
+				></a>
+				<a href="#info"
+				data-icon="info"
+				data-iconpos="notext"
 				data-transition="fade"
-				>Back</a>
-				<h1>Help Header</h1>
+				></a>
+				<h1>Help!</h1>
+
 			</div>
 			<div data-role="content">
 				<div data-role="collapsible"  data-theme="b" data-collapsed="true">
@@ -817,6 +817,52 @@
 				<h6>Restrooms</h6>
 				<img src="img/restrooms.png"/>
 			</div>
+			<!-- Sessions Footer -->
+			<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home"
+							data-transition="slide"
+							data-icon="home"
+
+							data-role="button">Home</a>
+						</li>
+						<li>
+							<a href="#Sessions"
+							data-transition="slide"
+							data-icon="file"
+
+							data-role="button">Sessions</a>
+						</li>
+
+						<li>
+							<a href="#videos"
+							data-transition="slide"
+							data-icon="video"
+
+							data-role="button">Videos</a>
+						</li>
+
+						<li>
+							<a href="#photos"
+							data-transition="slide"
+							data-icon="camera"
+
+							data-role="button">Photos</a>
+						</li>
+
+						<li>
+							<a href="#pdfs"
+							data-transition="slide"
+							data-icon="twitter"
+
+							data-role="button">PDFs</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /Sessions Footer -->
 		</div><!-- /Help Page -->
 
 <script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
