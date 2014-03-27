@@ -11,6 +11,14 @@
 #Sessions img {
 	margin-right:05px;
 }
+#pdfs {
+background: url('../img/PuzzlePieces.png');
+}
+
+#pdfs img {
+	width:100%;
+	margin-bottom:05px;
+}
 
 #videolist h3 {
 	margin: 15px 0 5px 0;
