@@ -47,44 +47,37 @@
 				data-transition="slide"
 				data-icon="file"
 				data-iconpos="left"
-				data-mini="true"
+			
 				data-role="button">Training Sessions</a>
 
 				<a href="#videos"
 				data-transition="slide"
 				data-icon="video"
 				data-iconpos="left"
-				data-mini="true"
+				
 				data-role="button">Spectrum Disorder Videos</a>
 
 				<a href="#photos"
 				data-transition="slide"
 				data-icon="camera"
 				data-iconpos="left"
-				data-mini="true"
+				
 				data-role="button">Photos</a>
 
-				<a href="#tweets"
+				<a href="#pdfs"
 				data-transition="slide"
 				data-icon="twitter"
 				data-iconpos="left"
-				data-mini="true"
-				data-role="button">Tweets</a>
+				
+				data-role="button">PDFs</a>
 
 				<a href="#info"
 				data-transition="slide"
 				data-icon="info"
 				data-iconpos="left"
-				data-mini="true"
+				
 				data-role="button">Autism Conference Info</a>
 
-				<a href="#videoplayer"
-
-				data-transition="slide"
-				data-icon="file"
-				data-iconpos="left"
-				data-mini="true"
-				data-role="button">Video Player</a>
 				<!-- /Home Page Buttons -->
 				<!-- R5 Logo -->
 				<img src="img/R5Logo_Umbrella.png" alt="Region 5 Autism Conference 2014" />
@@ -125,11 +118,11 @@
 							</li>
 
 							<li>
-								<a href="#tweets"
+								<a href="#pdfs"
 								data-transition="slide"
 								data-icon="twitter"
 
-								data-role="button">Tweets</a>
+								data-role="button">PDFs</a>
 							</li>
 						</ul>
 					</div>
@@ -425,11 +418,11 @@
 						</li>
 
 						<li>
-							<a href="#tweets"
+							<a href="#pdfs"
 							data-transition="slide"
 							data-icon="twitter"
 
-							data-role="button">Tweets</a>
+							data-role="button">PDFs</a>
 						</li>
 					</ul>
 				</div>
@@ -509,11 +502,11 @@
 						</li>
 
 						<li>
-							<a href="#tweets"
+							<a href="#pdfs"
 							data-transition="slide"
 							data-icon="twitter"
 
-							data-role="button">Tweets</a>
+							data-role="button">PDFs</a>
 						</li>
 					</ul>
 				</div>
@@ -567,8 +560,8 @@
 			>Home</a>
 		</div><!-- /Photos Page -->
 
-		<!-- Tweets Page -->
-		<div id="tweets" data-role="page">
+		<!-- PDFs Page -->
+		<div id="pdfs" data-role="page">
 			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
 				<a href="#home"
 				data-icon="home"
@@ -578,19 +571,19 @@
 				<a href="#Sessions"
 				data-transition="slide"
 				>Sessions</a>
-				<h1>Tweets Header</h1>
+				<h1>PDFs Header</h1>
 			</div>
-			<!-- Tweets Content -->
+			<!-- PDFs Content -->
 			<div data-role="content" id="tweetlist">
-				Tweets
+				PDFs
 			</div>
-			<!-- /Tweets Content -->
+			<!-- /PDFs Content -->
 
 			<a href="#home"
 			data-transition="slide"
 			data-role="button"
 			>Home</a>
-		</div><!-- /Tweets Page -->
+		</div><!-- /PDFs Page -->
 
 		<!-- Info Page -->
 		<div id="info" data-role="page">
@@ -741,12 +734,18 @@
 				<h1>Help Header</h1>
 			</div>
 			<div data-role="content">
-				Help Page
+				<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+				<h6>4th Floor Map</h6>
+				<img src="img/4thFloor.png"/>
+				</div>
+			<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+				<h6>Region 5 Parking</h6>
+				<img src="img/parking.png"/>
+				</div>	
+				<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+				<h6>Restrooms</h6>
+				<img src="img/restrooms.png"/>
 			</div>
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
 		</div><!-- /Help Page -->
 
 <script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
