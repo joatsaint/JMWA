@@ -15,108 +15,73 @@
 		app.initialize();
 	</head>
 	<body>
-		
 		<!-- Home Page -->
-
 		<div id="home" data-role="page" data-title="Home" data-theme="b">
 			<!-- Home Page Header -->
+			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
+				<a href="#help" data-icon="alert" data-transition="slide" data-role="button">HELP!</a>
 
-			<div
-			data-role="header"
-			data-theme="b"
-			data-id="vs_header"
-			data-position="fixed">
-				<a href="#help"
-				data-icon="alert"
-				data-transition="slide"
-				data-role="button">HELP!</a>
-
-				<a href="#info"
-				data-icon="info"
-
-				data-transition="fade"
-				data-role="button">ABOUT</a>
 				<h1>Region 5</h1>
+
+				<a href="#info" data-icon="info" data-transition="fade" data-role="button">ABOUT</a>
 			</div>
 			<!-- /Home Page Header -->
 
 			<!-- Content -->
 			<div data-role="content">
 				<!-- Home Page Buttons -->
-				<a href="#Sessions"
-				data-transition="slide"
-				data-icon="file"
-				data-iconpos="left"
-			
-				data-role="button">Training Sessions</a>
+				<a href="photos.html" data-transition="slide" data-icon="home" data-role="button">Autism Videos</a>
 
-				<a href="#videos"
-				data-transition="slide"
-				data-icon="video"
-				data-iconpos="left"
-				
-				data-role="button">Spectrum Disorder Videos</a>
+				<a href="#Sessions" data-transition="slide" data-icon="file" data-iconpos="left" data-role="button">Training Sessions</a>
 
-				<a href="#pdfs"
-				data-transition="slide"
-				data-icon="twitter"
-				data-iconpos="left"
-				
-				data-role="button">Presentation PDF Slides</a>
+				<!-- <a href="#videos" data-transition="slide" data-icon="video" data-iconpos="left" data-role="button">Spectrum Disorder Videos</a> -->
 
-				<a href="#info"
-				data-transition="slide"
-				data-icon="info"
-				data-iconpos="left"
-				
-				data-role="button">Autism Conference Info</a>
+				<a href="#pdfs" data-transition="slide" data-icon="twitter" data-iconpos="left" data-role="button">Presentation Slides</a>
+
+				<a href="#info" data-transition="slide" data-icon="info" data-iconpos="left" data-role="button">Autism Conference Info</a>
 
 				<!-- /Home Page Buttons -->
 				<!-- R5 Logo -->
 				<img src="img/R5Logo_Umbrella.png" alt="Region 5 Autism Conference 2014" />
 				<!-- /R5 Logo -->
-
-				<!-- Home Footer -->
-				<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
-					<div data-role="navbar">
-						<ul>
-							<li>
-								<a href="#home"
-								data-role="button"
-								data-icon="home"
-								>Home</a>
-							</li>
-							<li>
-								<a href="#Sessions"
-								data-transition="slide"
-								data-icon="file"
-
-								data-role="button">Sessions</a>
-							</li>
-
-							<li>
-								<a href="#videos"
-								data-transition="slide"
-								data-icon="video"
-
-								data-role="button">Videos</a>
-							</li>
-
-							
-
-							<li>
-								<a href="#pdfs"
-								data-transition="slide"
-								data-icon="twitter"
-
-								data-role="button">PDFs</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- /Home Footer -->
 			</div>
 			<!-- /Content -->
+			<!-- Home Footer -->
+			<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home"
+							data-role="button"
+							data-icon="home"
+							>Home</a>
+						</li>
+						<li>
+							<a href="#Sessions"
+							data-transition="slide"
+							data-icon="file"
+
+							data-role="button">Sessions</a>
+						</li>
+
+						<li>
+							<a href="photos.html"
+							data-transition="slide"
+							data-icon="home"
+							data-role="button">Youtube Videos</a>
+						</li>
+
+						<li>
+							<a href="#pdfs"
+							data-transition="slide"
+							data-icon="twitter"
+
+							data-role="button">PDFs</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /Home Footer -->
 		</div>
 		<!-- /Home Page -->
 
@@ -355,60 +320,45 @@
 
 				</div>
 
-				<div data-role="collapsible">
-					<h3>Section 2</h3>
-					<p>
-						I'm the collapsible set content for section 2.
-					</p>
-				</div>
+			</div><!-- /Sessions Content -->
+
+		<!-- Sessions Footer -->
+		<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li>
+						<a href="#home"
+						data-transition="slide"
+						data-icon="home"
+
+						data-role="button">Home</a>
+					</li>
+					<li>
+						<a href="#Sessions"
+						data-transition="slide"
+						data-icon="file"
+
+						data-role="button">Sessions</a>
+					</li>
+
+					<li>
+						<a href="photos.html"
+						data-transition="slide"
+						data-icon="home"
+						data-role="button">Youtube Videos</a>
+					</li>
+
+					<li>
+						<a href="#pdfs"
+						data-transition="slide"
+						data-icon="twitter"
+
+						data-role="button">PDFs</a>
+					</li>
+				</ul>
 			</div>
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
-
-			<!-- /Sessions Content -->
-
-			<!-- Sessions Footer -->
-			<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
-				<div data-role="navbar">
-					<ul>
-						<li>
-							<a href="#home"
-							data-transition="slide"
-							data-icon="home"
-
-							data-role="button">Home</a>
-						</li>
-						<li>
-							<a href="#Sessions"
-							data-transition="slide"
-							data-icon="file"
-
-							data-role="button">Sessions</a>
-						</li>
-
-						<li>
-							<a href="#videos"
-							data-transition="slide"
-							data-icon="video"
-
-							data-role="button">Videos</a>
-						</li>
-
-
-
-						<li>
-							<a href="#pdfs"
-							data-transition="slide"
-							data-icon="twitter"
-
-							data-role="button">PDFs</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- /Sessions Footer -->
+		</div>
+		<!-- /Sessions Footer -->
 		</div>
 		<!-- /Sessions Page -->
 
@@ -467,14 +417,11 @@
 						</li>
 
 						<li>
-							<a href="#videos"
+							<a href="photos.html"
 							data-transition="slide"
-							data-icon="video"
-
-							data-role="button">Videos</a>
+							data-icon="home"
+							data-role="button">Youtube Videos</a>
 						</li>
-
-
 
 						<li>
 							<a href="#pdfs"
@@ -511,9 +458,7 @@
 		</div>
 		<!-- / Video Player Page -->
 
-
-
-		<!--  Page -->
+		<!--  Youtube Videos Page -->
 		<div id="photos" data-role="page">
 			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
 				<a href="#home"
@@ -528,271 +473,9 @@
 			</div>
 			<div data-role="content">
 				Photos
+				<iframe src="//www.youtube.com/embed/ioWCE4SMyHg?rel=0" frameborder="0" allowfullscreen="false"></iframe>
 			</div>
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
-		</div><!-- /Photos Page -->
-
-		<!-- PDFs Page -->
-		<div id="pdfs" data-role="page">
-			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
-				<a href="#home"
-				data-icon="home"
-				data-iconpos="right"
-				data-transition="slide"
-				>Home</a>
-				<a href="#Sessions"
-				data-transition="slide"
-				>Sessions</a>
-				<h1>PDFs Header</h1>
-			</div>
-			<!-- PDFs Content -->
-			<div data-role="content" id="pdfslides">
-<!-- Function Junction -->
-				<div data-role="collapsible" data-theme="b" data-collapsed="true">
-					<h6>Function Junction</h6>
-				<img src="img/pdfimages/FJ/image001.png"/>
-				<img src="img/pdfimages/FJ/image002.png"/>
-				<img src="img/pdfimages/FJ/image003.png"/>
-				<img src="img/pdfimages/FJ/image004.png"/>
-				<img src="img/pdfimages/FJ/image005.png"/>
-				<img src="img/pdfimages/FJ/image006.png"/>
-				<img src="img/pdfimages/FJ/image007.png"/>
-				<img src="img/pdfimages/FJ/image008.png"/>
-				<img src="img/pdfimages/FJ/image009.png"/>
-				<img src="img/pdfimages/FJ/image010.png"/>
-				<img src="img/pdfimages/FJ/image011.png"/>
-				<img src="img/pdfimages/FJ/image012.png"/>
-				<img src="img/pdfimages/FJ/image013.png"/>
-				<img src="img/pdfimages/FJ/image014.png"/>
-				<img src="img/pdfimages/FJ/image015.png"/>
-				<img src="img/pdfimages/FJ/image016.png"/>
-				<img src="img/pdfimages/FJ/image017.png"/>
-				<img src="img/pdfimages/FJ/image018.png"/>
-				<img src="img/pdfimages/FJ/image019.png"/>
-				<img src="img/pdfimages/FJ/image020.png"/>
-				<img src="img/pdfimages/FJ/image021.png"/>
-				</div>
-				<!-- /Function Junction -->
-				
-				<!-- Infinity -->
-								<div data-role="collapsible" data-theme="b" data-collapsed="true">
-					<h6>Infinity and Beyond</h6>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_01.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_02.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_03.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_04.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_05.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_06.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_07.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_08.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_09.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_10.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_11.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_12.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_13.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_14.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_15.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_16.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_17.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_18.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_19.png"/>
-				<img src="img/pdfimages/IB/Infinity_cmp_Page_20.png"/>
-				</div>
-				<!-- /Infinity -->
-				
-								<!-- Visual Supports -->
-								<div data-role="collapsible" data-theme="b" data-collapsed="true">
-					<h6>Visual Supports</h6>
-				<img src="img/pdfimages/VS/image021.png"/>
-				<img src="img/pdfimages/VS/image022.png"/>
-				<img src="img/pdfimages/VS/image023.png"/>
-				<img src="img/pdfimages/VS/image024.png"/>
-				<img src="img/pdfimages/VS/image025.png"/>
-				<img src="img/pdfimages/VS/image026.png"/>
-				<img src="img/pdfimages/VS/image027.png"/>
-				<img src="img/pdfimages/VS/image028.png"/>
-				<img src="img/pdfimages/VS/image029.png"/>
-				<img src="img/pdfimages/VS/image030.png"/>
-				<img src="img/pdfimages/VS/image031.png"/>
-				<img src="img/pdfimages/VS/image031.png"/>
-				<img src="img/pdfimages/VS/image032.png"/>
-				<img src="img/pdfimages/VS/image033.png"/>
-				</div>
-				<!-- /Visual Supports -->
-			<!-- /PDFs Content -->
-
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
-			</div>
-		</div><!-- /PDFs Page -->
-
-		<!-- Info Page -->
-		<div id="info" data-role="page">
-			<!-- Info Header -->
-			<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
-				<a href="#home"
-				data-icon="home"
-				data-iconpos="notext"
-				data-transition="slide"
-				></a>
-				<a href="#info"
-				data-icon="info"
-				data-iconpos="notext"
-				data-transition="fade"
-				></a>
-				<h1>Info</h1>
-			</div>
-			<!-- /Info Header -->
-
-			<div data-role="content">
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Title: #8082 Region 5 ESC Autism Conference</strong></span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Join us for a day of information motivation and practical strategies and tips. </span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Sessions that address evidence based practices for all age groups will include social skill concerns for playgroups to job skills, visual supports for all occasions and behavior strategies you will not want to miss. </span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Don&#39;t miss our Appy Hour session for the latest technology apps. </span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Lunch will be provided and great Door Prizes for those in attendance.</span></span>
-				</p>
-				<p>
-					<br />
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Presenter(s):</strong></span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Andrea Cherry, M.Ed.
-							<br />
-							Brittany Waguespack, M.Ed., BCBA
-							<br />
-							Navigating Behavior Solutions, LLC</span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Erica Duckworth
-							<br />
-							Special Education Counselor &amp; Behavior Interventionist
-							<br />
-							Big Thicket Cooperative</span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Kay Herrington
-							<br />
-							Technology Coordinator
-							<br />
-							Region 5 Education Service Center</span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Beth Hudson
-							<br />
-							Program Coordinator
-							<br />
-							Region 5 Education Service Center</span></span>
-				</p>
-				<p>
-					&nbsp;
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Special Instructions:</strong> Administrators, Special Educators, General Educators, Para-Professionals, Parents, Counselors and Diagnosticians</span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Deadline </strong>4/7/2014
-							<br />
-							<strong>Date </strong>4/12/2014 8:30 - 3:30
-							<br />
-							<strong>All Day Event&nbsp;&nbsp;</strong>
-							<br />
-							&nbsp;
-							<br />
-							<strong>Price: Per Individual</strong>
-							<br />
-							<strong>Late Fee:</strong> $10.00
-							<br />
-							<strong>Standard Fee:</strong> $50.00
-							<br />
-							<strong>Cooperative Fee:</strong> $50.00
-							<br />
-							<strong>Capacity:</strong> 125
-							<br />
-							<strong>Train the Trainer:</strong> No
-							<br />
-							<strong>Audience:</strong> All
-							<br />
-							<strong>Certificate Type:</strong> Professional Development (CPE)
-							<br />
-							<strong>CPE Area(s):</strong> Special Education
-							<br />
-							<strong>Credit Type:</strong> CPE Credit
-							<br />
-							<strong>Credit Hours:</strong> 6
-							<br />
-							PDAS&nbsp;&nbsp;
-							<br />
-							SBEC&nbsp;&nbsp;
-							<br />
-							Workspace&nbsp;&nbsp;
-							<br />
-							<strong>Program or Service(s):</strong> Special Education</span></span>
-				</p>
-				<p>
-					<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Location</strong> Region 5 ESC Edison Plaza, 350 Pine Street, 4th Floor</span></span>
-				</p>
-
-				<tr>
-					<td><h3>For more info:</h3></td>
-					<td>
-					<div>
-						Barbara Larkin
-						<br>
-						Program Assistant
-						<br>
-						<a target="_blank" href="mailto:blarkin@esc5.net">blarkin@esc5.net</a>&nbsp;or 409-951-1713
-					</div>
-			</div>
-			<a href="#home"
-			data-transition="slide"
-			data-role="button"
-			>Home</a>
-		</div><!-- /Info Page -->
-
-		<!-- Help Page -->
-		<div id="help" data-role="page">
-<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
-				<a href="#home"
-				data-icon="home"
-				data-iconpos="notext"
-				data-transition="slide"
-				></a>
-				<a href="#info"
-				data-icon="info"
-				data-iconpos="notext"
-				data-transition="fade"
-				></a>
-				<h1>Help!</h1>
-
-			</div>
-			<div data-role="content">
-				<div data-role="collapsible"  data-theme="b" data-collapsed="true">
-				<h6>4th Floor Map</h6>
-				<img src="img/4thFloor.png"/>
-				</div>
-			<div data-role="collapsible"  data-theme="b" data-collapsed="true">
-				<h6>Region 5 Parking</h6>
-				<img src="img/parking.png"/>
-				</div>	
-				<div data-role="collapsible"  data-theme="b" data-collapsed="true">
-				<h6>Restrooms</h6>
-				<img src="img/restrooms.png"/>
-			</div>
-			<!-- Sessions Footer -->
+			<!-- Photos Footer -->
 			<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
 				<div data-role="navbar">
 					<ul>
@@ -812,14 +495,11 @@
 						</li>
 
 						<li>
-							<a href="#videos"
+							<a href="photos.html"
 							data-transition="slide"
-							data-icon="video"
-
-							data-role="button">Videos</a>
+							data-icon="home"
+							data-role="button">Youtube Videos</a>
 						</li>
-
-
 
 						<li>
 							<a href="#pdfs"
@@ -831,9 +511,357 @@
 					</ul>
 				</div>
 			</div>
-			<!-- /Sessions Footer -->
-		</div><!-- /Help Page -->
+			<!-- /Photos Footer -->
+</div>
+			<!--  --------------------------------------------/Youtube Videos Page------------------------------------------ -->
 
-<script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
+			<!-- PDFs Page -->
+			<div id="pdfs" data-role="page">
+				<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
+					<a href="#home"
+					data-icon="home"
+					data-iconpos="right"
+					data-transition="slide"
+					>Home</a>
+					<a href="#Sessions"
+					data-transition="slide"
+					>Sessions</a>
+					<h1>PDFs Header</h1>
+				</div>
+				<!-- PDFs Content -->
+				<div data-role="content" id="pdfslides">
+					<!-- Function Junction -->
+					<div data-role="collapsible" data-theme="b" data-collapsed="true">
+						<h6>Function Junction</h6>
+						<img src="img/pdfimages/FJ/image001.png"/>
+						<img src="img/pdfimages/FJ/image002.png"/>
+						<img src="img/pdfimages/FJ/image003.png"/>
+						<img src="img/pdfimages/FJ/image004.png"/>
+						<img src="img/pdfimages/FJ/image005.png"/>
+						<img src="img/pdfimages/FJ/image006.png"/>
+						<img src="img/pdfimages/FJ/image007.png"/>
+						<img src="img/pdfimages/FJ/image008.png"/>
+						<img src="img/pdfimages/FJ/image009.png"/>
+						<img src="img/pdfimages/FJ/image010.png"/>
+						<img src="img/pdfimages/FJ/image011.png"/>
+						<img src="img/pdfimages/FJ/image012.png"/>
+						<img src="img/pdfimages/FJ/image013.png"/>
+						<img src="img/pdfimages/FJ/image014.png"/>
+						<img src="img/pdfimages/FJ/image015.png"/>
+						<img src="img/pdfimages/FJ/image016.png"/>
+						<img src="img/pdfimages/FJ/image017.png"/>
+						<img src="img/pdfimages/FJ/image018.png"/>
+						<img src="img/pdfimages/FJ/image019.png"/>
+						<img src="img/pdfimages/FJ/image020.png"/>
+						<img src="img/pdfimages/FJ/image021.png"/>
+					</div>
+					<!-- /Function Junction -->
+
+					<!-- Infinity -->
+					<div data-role="collapsible" data-theme="b" data-collapsed="true">
+						<h6>Infinity and Beyond</h6>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_01.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_02.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_03.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_04.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_05.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_06.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_07.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_08.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_09.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_10.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_11.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_12.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_13.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_14.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_15.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_16.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_17.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_18.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_19.png"/>
+						<img src="img/pdfimages/IB/Infinity_cmp_Page_20.png"/>
+					</div>
+					<!-- /Infinity -->
+
+					<!-- Visual Supports -->
+					<div data-role="collapsible" data-theme="b" data-collapsed="true">
+						<h6>Visual Supports</h6>
+						<img src="img/pdfimages/VS/image021.png"/>
+						<img src="img/pdfimages/VS/image022.png"/>
+						<img src="img/pdfimages/VS/image023.png"/>
+						<img src="img/pdfimages/VS/image024.png"/>
+						<img src="img/pdfimages/VS/image025.png"/>
+						<img src="img/pdfimages/VS/image026.png"/>
+						<img src="img/pdfimages/VS/image027.png"/>
+						<img src="img/pdfimages/VS/image028.png"/>
+						<img src="img/pdfimages/VS/image029.png"/>
+						<img src="img/pdfimages/VS/image030.png"/>
+						<img src="img/pdfimages/VS/image031.png"/>
+						<img src="img/pdfimages/VS/image031.png"/>
+						<img src="img/pdfimages/VS/image032.png"/>
+						<img src="img/pdfimages/VS/image033.png"/>
+					</div>
+					<!-- /Visual Supports -->
+					<!-- /PDFs Content -->
+				</div>
+
+				<!-- PDFs Footer -->
+				<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li>
+								<a href="#home"
+								data-transition="slide"
+								data-icon="home"
+
+								data-role="button">Home</a>
+							</li>
+							<li>
+								<a href="#Sessions"
+								data-transition="slide"
+								data-icon="file"
+
+								data-role="button">Sessions</a>
+							</li>
+
+							<li>
+								<a href="photos.html"
+								data-transition="slide"
+								data-icon="home"
+								data-role="button">Youtube Videos</a>
+							</li>
+
+							<li>
+								<a href="#pdfs"
+								data-transition="slide"
+								data-icon="twitter"
+
+								data-role="button">PDFs</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /PDFs Footer -->
+			</div><!-- /PDFs Page -->
+
+			<!-- Info Page -->
+			<div id="info" data-role="page">
+				<!-- Info Header -->
+				<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
+					<a href="#home"
+					data-icon="home"
+					data-iconpos="notext"
+					data-transition="slide"
+					></a>
+					<a href="#info"
+					data-icon="info"
+					data-iconpos="notext"
+					data-transition="fade"
+					></a>
+					<h1>Info</h1>
+				</div>
+				<!-- /Info Header -->
+
+				<div data-role="content">
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Title: #8082 Region 5 ESC Autism Conference</strong></span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Join us for a day of information motivation and practical strategies and tips. </span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Sessions that address evidence based practices for all age groups will include social skill concerns for playgroups to job skills, visual supports for all occasions and behavior strategies you will not want to miss. </span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Don&#39;t miss our Appy Hour session for the latest technology apps. </span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Lunch will be provided and great Door Prizes for those in attendance.</span></span>
+					</p>
+					<p>
+						<br />
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Presenter(s):</strong></span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Andrea Cherry, M.Ed.
+								<br />
+								Brittany Waguespack, M.Ed., BCBA
+								<br />
+								Navigating Behavior Solutions, LLC</span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Erica Duckworth
+								<br />
+								Special Education Counselor &amp; Behavior Interventionist
+								<br />
+								Big Thicket Cooperative</span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Kay Herrington
+								<br />
+								Technology Coordinator
+								<br />
+								Region 5 Education Service Center</span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;">Beth Hudson
+								<br />
+								Program Coordinator
+								<br />
+								Region 5 Education Service Center</span></span>
+					</p>
+					<p>
+						&nbsp;
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Special Instructions:</strong> Administrators, Special Educators, General Educators, Para-Professionals, Parents, Counselors and Diagnosticians</span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Deadline </strong>4/7/2014
+								<br />
+								<strong>Date </strong>4/12/2014 8:30 - 3:30
+								<br />
+								<strong>All Day Event&nbsp;&nbsp;</strong>
+								<br />
+								&nbsp;
+								<br />
+								<strong>Price: Per Individual</strong>
+								<br />
+								<strong>Late Fee:</strong> $10.00
+								<br />
+								<strong>Standard Fee:</strong> $50.00
+								<br />
+								<strong>Cooperative Fee:</strong> $50.00
+								<br />
+								<strong>Capacity:</strong> 125
+								<br />
+								<strong>Train the Trainer:</strong> No
+								<br />
+								<strong>Audience:</strong> All
+								<br />
+								<strong>Certificate Type:</strong> Professional Development (CPE)
+								<br />
+								<strong>CPE Area(s):</strong> Special Education
+								<br />
+								<strong>Credit Type:</strong> CPE Credit
+								<br />
+								<strong>Credit Hours:</strong> 6
+								<br />
+								PDAS&nbsp;&nbsp;
+								<br />
+								SBEC&nbsp;&nbsp;
+								<br />
+								Workspace&nbsp;&nbsp;
+								<br />
+								<strong>Program or Service(s):</strong> Special Education</span></span>
+					</p>
+					<p>
+						<span style="font-family:courier new,courier,monospace;"><span style="font-size: 16px;"><strong>Location</strong> Region 5 ESC Edison Plaza, 350 Pine Street, 4th Floor</span></span>
+					</p>
+
+					<tr>
+						<td><h3>For more info:</h3></td>
+						<td>
+						<div>
+							Barbara Larkin
+							<br>
+							Program Assistant
+							<br>
+							<a target="_blank" href="mailto:blarkin@esc5.net">blarkin@esc5.net</a>&nbsp;or 409-951-1713
+						</div>
+				</div>
+				<!-- Info Footer -->
+				<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li>
+								<a href="#home"
+								data-transition="slide"
+								data-icon="home"
+
+								data-role="button">Home</a>
+							</li>
+							<li>
+								<a href="#Sessions"
+								data-transition="slide"
+								data-icon="file"
+
+								data-role="button">Sessions</a>
+							</li>
+
+							<li>
+								<a href="photos.html"
+								data-transition="slide"
+								data-icon="home"
+								data-role="button">Youtube Videos</a>
+							</li>
+
+							<li>
+								<a href="#pdfs"
+								data-transition="slide"
+								data-icon="twitter"
+
+								data-role="button">PDFs</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /Info Footer -->
+			</div><!-- /Info Page -->
+
+			<!-- Help Page -->
+			<div id="help" data-role="page">
+				<div data-role="header" data-theme="b" data-id="vs_header" data-position="fixed">
+					<a href="#home"
+					data-icon="home"
+					data-iconpos="notext"
+					data-transition="slide"
+					></a>
+					<a href="#info"
+					data-icon="info"
+					data-iconpos="notext"
+					data-transition="fade"
+					></a>
+					<h1>Help!</h1>
+
+				</div>
+				<div data-role="content">
+					<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+						<h6>4th Floor Map</h6>
+						<img src="img/4thFloor.png"/>
+					</div>
+					<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+						<h6>Region 5 Parking</h6>
+						<img src="img/parking.png"/>
+					</div>
+					<div data-role="collapsible"  data-theme="b" data-collapsed="true">
+						<h6>Restrooms</h6>
+						<img src="img/restrooms.png"/>
+					</div>
+					<!-- /Help Footer -->
+					<div data-role="footer" data-id="vs_footer" data-theme="b" data-position="fixed">
+						<div data-role="navbar">
+							<ul>
+								<li>
+									<a href="#home" data-transition="slide" data-icon="home" data-role="button">Home</a>
+								</li>
+								<li>
+									<a href="#Sessions" data-transition="slide" data-icon="file" data-role="button">Sessions</a>
+								</li>
+
+								<li>
+									<a href="photos.html" data-transition="slide" data-icon="home" data-role="button">Youtube Videos</a>
+								</li>
+
+								<li>
+									<a href="#pdfs" data-transition="slide" data-icon="twitter" data-role="button">PDFs</a>
+								</li>
+							</ul>
+						</div>
+					</div><!-- /Help Footer -->
+				</div><!-- /Help Page -->
+
+				<!-- <script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script> -->
+				<script src="http://gdata.youtube.com/feeds/api/videos?max-results=10&alt=json&q=spectrum&author=autismtreatment&callback=listVideos" type="text/javascript"></script>
 	</body>
 </html>

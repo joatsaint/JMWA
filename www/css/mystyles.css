@@ -16,6 +16,7 @@
 #Sessions img {
 	margin-right:05px;
 }
+
 #pdfs {
 background: url('../img/PuzzlePieces.png');
 }
@@ -58,6 +59,7 @@ background: url('../img/PuzzlePieces.png');
 #videoplayer h3, #myplayer p {
 	padding: 0 5%;
 }
+
 
 .ui-icon-file {
 	background-image: url("images/file.png");	
