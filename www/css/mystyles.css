@@ -60,6 +60,11 @@ background: url('../img/PuzzlePieces.png');
 	padding: 0 5%;
 }
 
+#photos {
+	text-align: left;
+	background: url('../img/PuzzlePieces.png');
+}
+
 
 .ui-icon-file {
 	background-image: url("images/file.png");	
